@@ -35,66 +35,81 @@ let =
 
 let name = "Michelangelo";
 
-/* ESERCIZIO 3
- Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
-*/
+let number = 233
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-const num1 = 12;
-const num2 = 20;
+let number2 = 234
 
-//aggiungo due numeri
+console.log(number+number2)
 
-const sum = num1 + num2;
+// /* ESERCIZIO 3
+//  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
+// */
 
-//mostro la somma
-console.log("The sum of" + num1 + "and" + num2 + "is:" + sum);
+// /* SCRIVI QUI LA TUA RISPOSTA */
+// const num1 = 12;
+// const num2 = 20;
 
-/* ESERCIZIO 4
- Crea una variable di nome "x" e assegna ad essa il numero 12.
-*/
+// //aggiungo due numeri
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// const sum = num1 + num2;
 
-let x = 12;
+// //mostro la somma
+// console.log("The sum of" + num1 + "and" + num2 + "is:" + sum);
 
-/* ESERCIZIO 5
-  Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
-  Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
-*/
+// /* ESERCIZIO 4
+//  Crea una variable di nome "x" e assegna ad essa il numero 12.
+// */
 
-name = "Melis";
+// /* SCRIVI QUI LA TUA RISPOSTA */
 
-const surname = "Melis"; //se si prova a cambiare const il terminale da errore
+// let x = 12;
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// /* ESERCIZIO 5
+//   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
+//   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
+// */
 
-/* ESERCIZIO 6
- Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
-*/
+// name = "Melis";
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// const surname = "Melis"; //se si prova a cambiare const il terminale da errore
 
-let y = 4;
-console.log(y - x);
+// /* SCRIVI QUI LA TUA RISPOSTA */
 
-/* ESERCIZIO 7
- Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
- Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
- EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
-*/
+// /* ESERCIZIO 6
+//  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
+// */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// /* SCRIVI QUI LA TUA RISPOSTA */
 
-let name1 = "john";
-let name2 = "John";
+// let y = 4;
+// console.log(y - x);
 
-if (name1 !== name2) {
-  console.log("Names are different");
-}
+// /* ESERCIZIO 7
+//  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
+//  Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
+//  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
+// */
 
-name1.toLowerCase;
+// /* SCRIVI QUI LA TUA RISPOSTA */
 
-if ((name1 = name2)) {
+// let name1 = "john";
+// let name2 = "John";
+
+// if (name1 !== name2) {
+//   console.log("Names are different");
+// // }
+let name1 = "Michelangelo"
+let name2 = "Pino"
+
+
+console.log(name1.toUpperCase())
+
+if (name1 === name2) {
   console.log("Names are same");
+}
+else if (name2 === "Michelangelo") {
+  console.log("il nome è", name1)
+}
+else {
+  console.log("Names are not the same")
 }
