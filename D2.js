@@ -63,6 +63,10 @@ let x = 12;
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
+name = "Melis";
+
+const surname = "Melis"; //se si prova a cambiare const il terminale da errore
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 6
@@ -80,6 +84,8 @@ console.log(y - x);
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
+/* SCRIVI QUI LA TUA RISPOSTA */
+
 let name1 = "john";
 let name2 = "John";
 
@@ -87,4 +93,8 @@ if (name1 !== name2) {
   console.log("Names are different");
 }
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+name1.toLowerCase;
+
+if ((name1 = name2)) {
+  console.log("Names are same");
+}
